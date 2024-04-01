@@ -23,7 +23,7 @@ public class ModItems {
     ////////////////////////////////////////////////////////////////////////////////////////////
     //ITEMS//
 
-    public static final Item TESTITEM=registerItem("testitem",new Item(new FabricItemSettings()));
+    public static final Item FANG=registerItem("fang",new Item(new FabricItemSettings()));
 
 
 
@@ -31,7 +31,7 @@ public class ModItems {
     //////////////////////////////////////////////////////////////////////////////////////////////
     //CreativeTabGrouping
     public static void addItemsToIngredientsGroup(FabricItemGroupEntries entries){
-        entries.add(TESTITEM);
+        entries.add(FANG);
     }
 
 
