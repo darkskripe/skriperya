@@ -20,6 +20,7 @@ public class ModBlocksCreativeTab {
                     entries(((displayContext, entries) ->{
                         //////////care se adauga
                         entries.add(ModBlocks.SEQUOIA_LOG_BLOCK);
+                        entries.add(ModBlocks.SEQUOIA_PANKS_BLOCK);
                     } )).
                     build()
     );

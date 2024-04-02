@@ -20,6 +20,9 @@ public class ModBlocks {
     public static final Block SEQUOIA_LOG_BLOCK =registerBlock("sequoia_log",
             new Block(FabricBlockSettings.copyOf(Blocks.DARK_OAK_WOOD)));
 
+    public static final Block SEQUOIA_PANKS_BLOCK =registerBlock("sequoia_planks",
+            new Block(FabricBlockSettings.copyOf(Blocks.DARK_OAK_WOOD)));
+
 
 
     ////////////////////////////METHODS/////////////////////
