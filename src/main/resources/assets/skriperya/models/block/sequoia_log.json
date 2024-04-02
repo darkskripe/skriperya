@@ -1,0 +1,11 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "north": "skriperya:block/sequoia_log",
+    "south": "skriperya:block/sequoia_log",
+    "west": "skriperya:block/sequoia_log",
+    "east": "skriperya:block/sequoia_log",
+    "top": "skriperya:block/sequoia_log_top",
+    "bottom": "skriperya:block/sequoia_log_top"
+  }
+}

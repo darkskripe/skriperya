@@ -1,4 +1,11 @@
 {
   "item.skriperya.fang": "Fang",
-  "itemgroup.mob_drops_skriperya": "Skriperya drops"
+
+
+
+  "itemgroup.mob_drops_skriperya": "Skriperya mob drops",
+  "itemgroup.blocks_skriperya": "Skriperya blocks",
+
+
+  "block.skriperya.sequoia_log": "Sequoia log"
 }
