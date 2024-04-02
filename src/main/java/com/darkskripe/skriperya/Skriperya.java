@@ -1,5 +1,6 @@
 package com.darkskripe.skriperya;
 
+import com.darkskripe.skriperya.creativeTabs.MobDropsCreativeTab;
 import com.darkskripe.skriperya.items.ModItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -16,5 +17,6 @@ public class Skriperya implements ModInitializer {
 	public void onInitialize() {
 		LOGGER.info("Hello Fabric world!");
 		ModItems.registerModItemsLog();
+		MobDropsCreativeTab.registerTabs();
 	}
 }

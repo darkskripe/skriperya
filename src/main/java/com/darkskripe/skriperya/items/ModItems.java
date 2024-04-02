@@ -31,7 +31,8 @@ public class ModItems {
     //////////////////////////////////////////////////////////////////////////////////////////////
     //CreativeTabGrouping
     public static void addItemsToIngredientsGroup(FabricItemGroupEntries entries){
-        entries.add(FANG);
+
+
     }
 
 
