@@ -7,5 +7,6 @@ public class RegisterAllSkriperyaTabs {
     public static void registerTabs(){
        MobDropsCreativeTab.registerMobDropsTab();
        ModBlocksCreativeTab.registerBlocksTab();
+       ModFoodCreativeTab.registerFoodTab();
     }
 }

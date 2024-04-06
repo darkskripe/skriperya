@@ -19,6 +19,7 @@ public class MobDropsCreativeTab {
                     entries(((displayContext, entries) ->{
                         //////////care se adauga
                         entries.add(ModItems.FANG);
+                        entries.add(ModItems.TIKI_TOTEM);
                     } )).
                     build()
             );

@@ -1,12 +1,15 @@
 {
   "item.skriperya.fang": "Fang",
+  "item.skriperya.tiki_totem": "Tiki totem",
+  "item.skriperya.shulkers_fruit": "Shulker's fruit",
 
 
 
   "itemgroup.mob_drops_skriperya": "Skriperya mob drops",
   "itemgroup.blocks_skriperya": "Skriperya blocks",
+  "itemgroup.food_skriperya": "Skriperya food",
 
 
-  "block.skriperya.sequoia_log": "Sequoia log",
-  "block.skriperya.sequoia_planks": "Sequoia planks"
+  "block.skriperya.dung_lamp": "Dung Lamp"
+
 }
