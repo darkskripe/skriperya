@@ -6,6 +6,6 @@ import net.minecraft.item.FoodComponent;
 
 public class ModFoodComponents {
     public static final FoodComponent SHULKERS_FRUIT = new FoodComponent.Builder().hunger(2).saturationModifier(0.25f).
-            statusEffect(new StatusEffectInstance(StatusEffects.LEVITATION,140,3),20).alwaysEdible().build();
+            statusEffect(new StatusEffectInstance(StatusEffects.LEVITATION,140,2),20).alwaysEdible().build();
 
 }
