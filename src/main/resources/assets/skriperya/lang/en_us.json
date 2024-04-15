@@ -1,6 +1,11 @@
 {
   "item.skriperya.fang": "Fang",
+  "item.skriperya.middle_hard_bone": "Middle hard bone",
   "item.skriperya.tiki_totem": "Tiki totem",
+
+  "item.skriperya.bloody_dao": "Bloody dao",
+
+
   "item.skriperya.shulkers_fruit": "Shulker's fruit",
   "tooltip.skriperya.tiki_totem.tooltip": "Gonna die",
 
@@ -9,6 +14,8 @@
   "itemgroup.mob_drops_skriperya": "Skriperya mob drops",
   "itemgroup.blocks_skriperya": "Skriperya blocks",
   "itemgroup.food_skriperya": "Skriperya food",
+  "itemgroup.weapons_skriperya": "Skriperya weapons",
+
 
 
   "block.skriperya.dung_lamp": "Dung Lamp"

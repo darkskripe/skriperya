@@ -14,7 +14,7 @@ import net.minecraft.util.Identifier;
 public class ModBlocks {
     ///////////////////BLOCKS///////////////////////////
     public static final Block DUNG_LAMP =registerBlock("dung_lamp",
-            new Block(FabricBlockSettings.copyOf(Blocks.GLOWSTONE)));
+            new Block(FabricBlockSettings.copyOf(Blocks.GLOWSTONE).requiresTool()));
 
 
 

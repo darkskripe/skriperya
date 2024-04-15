@@ -11,19 +11,18 @@ import net.minecraft.registry.Registry;
 import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 
-public class ModBlocksCreativeTab {
-
-    public static final ItemGroup MOB_DROP_TAB = Registry.register(Registries.ITEM_GROUP,
+public class ModBlocksTab {
+    public static final ItemGroup BLOCKS_TAB = Registry.register(Registries.ITEM_GROUP,
             new Identifier(Skriperya.MOD_ID,"blocks_skriperya"),
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.blocks_skriperya")).
                     icon(()->new ItemStack(ModBlocks.DUNG_LAMP)).
                     entries(((displayContext, entries) ->{
                         //////////care se adauga
                         entries.add(ModBlocks.DUNG_LAMP);
+
                     } )).
                     build()
     );
-    ////////////////////////////////logs//////////////////////////////////
     public static void registerBlocksTab(){
         Skriperya.LOGGER.info("Register blocks creative tab for skriperya");
     }

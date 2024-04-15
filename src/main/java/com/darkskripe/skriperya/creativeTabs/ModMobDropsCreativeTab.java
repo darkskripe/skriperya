@@ -11,7 +11,7 @@ import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 
 
-public class MobDropsCreativeTab {
+public class ModMobDropsCreativeTab {
     public static final ItemGroup MOB_DROP_TAB = Registry.register(Registries.ITEM_GROUP,
             new Identifier(Skriperya.MOD_ID,"mob_drops_skriperya"),
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.mob_drops_skriperya")).
@@ -19,6 +19,7 @@ public class MobDropsCreativeTab {
                     entries(((displayContext, entries) ->{
                         //////////care se adauga
                         entries.add(ModItems.FANG);
+                        entries.add(ModItems.MIDDLE_HARD_BONE);
                         entries.add(ModItems.TIKI_TOTEM);
                     } )).
                     build()
