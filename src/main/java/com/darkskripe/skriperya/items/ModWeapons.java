@@ -2,10 +2,10 @@ package com.darkskripe.skriperya.items;
 
 import com.darkskripe.skriperya.Skriperya;
 import com.darkskripe.skriperya.interfaces.RegisterItem;
-import com.darkskripe.skriperya.items.customItems.BloodyDao;
+import com.darkskripe.skriperya.items.customItems.customWeapons.BloodyDao;
+import com.darkskripe.skriperya.items.materials.ModToolMaterial;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.item.Item;
-import net.minecraft.item.SwordItem;
 
 
 public class ModWeapons implements RegisterItem {

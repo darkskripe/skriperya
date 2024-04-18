@@ -3,6 +3,7 @@ package com.darkskripe.skriperya;
 import com.darkskripe.skriperya.blocks.ModBlocks;
 import com.darkskripe.skriperya.creativeTabs.RegisterAllSkriperyaTabs;
 import com.darkskripe.skriperya.items.ModItems;
+import com.darkskripe.skriperya.util.ModLootTableModifiers;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -16,9 +17,10 @@ public class Skriperya implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		LOGGER.info("Hello Fabric world!");
+		LOGGER.info("Hello Fabric world!Thats skriperyaaa");
 		ModItems.registerModItemsLog();
-		RegisterAllSkriperyaTabs.registerTabs();
 		ModBlocks.registerBlocks();
+		RegisterAllSkriperyaTabs.registerTabs();
+		ModLootTableModifiers.modifyLootTables();
 	}
 }

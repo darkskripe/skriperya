@@ -1,4 +1,4 @@
-package com.darkskripe.skriperya.items.customItems;
+package com.darkskripe.skriperya.items.customItems.customItems;
 
 import net.minecraft.client.item.TooltipContext;
 import net.minecraft.entity.effect.StatusEffectInstance;

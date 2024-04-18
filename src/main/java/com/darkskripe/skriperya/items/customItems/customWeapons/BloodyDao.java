@@ -1,4 +1,4 @@
-package com.darkskripe.skriperya.items.customItems;
+package com.darkskripe.skriperya.items.customItems.customWeapons;
 
 import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.entity.LivingEntity;

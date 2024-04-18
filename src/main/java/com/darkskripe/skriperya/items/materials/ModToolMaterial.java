@@ -1,4 +1,4 @@
-package com.darkskripe.skriperya.items;
+package com.darkskripe.skriperya.items.materials;
 
 
 import com.darkskripe.skriperya.util.ModTags;

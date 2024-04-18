@@ -20,7 +20,11 @@ public class ModMobDropsCreativeTab {
                         //////////care se adauga
                         entries.add(ModItems.FANG);
                         entries.add(ModItems.MIDDLE_HARD_BONE);
+                        entries.add(ModItems.ENDER_HIDE_SMALL);
+                        entries.add(ModItems.ENDER_HIDE_MEDIUM);
+                        entries.add(ModItems.ENDER_HIDE_BIG);
                         entries.add(ModItems.TIKI_TOTEM);
+
                     } )).
                     build()
             );
